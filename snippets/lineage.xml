@@ -16,6 +16,7 @@
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="LineageOS" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="LineageOS" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="LineageOS" />
+  <project path="external/libdrm" name="android_external_libdrm" groups="pdk" remote="LineageOS" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="LineageOS" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="LineageOS" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="LineageOS" />
