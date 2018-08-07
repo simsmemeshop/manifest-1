@@ -2,11 +2,24 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-9.0.0_r1"
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="bootleggers"
+           fetch="https://github.com/bootleggers-future"
+           revision="pasta" />
+
+  <remote  name="bootleggers-bff"
+           fetch="https://gitlab.com/bootleggers-future-bff"
+           revision="pasta" />
+
+  <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4" 
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -697,5 +710,9 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Custom repos -->
+  <include name="snippets/delet.xml" />
+  <include name="snippets/bootleggers.xml" />
 
 </manifest>
