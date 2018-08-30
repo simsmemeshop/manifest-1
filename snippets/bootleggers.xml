@@ -99,7 +99,7 @@
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="bootleggers" />
   <project path="external/exfat" name="external_exfat" remote="bootleggers" />
   <project path="external/fuse" name="android_external_fuse" remote="los" revision="lineage-15.1" />
-  <project path="external/htop" name="android_external_htop" remote="los" revision="lineage-15.1" />
+  <project path="external/htop" name="external_htop" remote="bootleggers" />
   <project path="external/json-c" name="external_json-c" remote="bootleggers" />
   <project path="external/libncurses" name="external_libncurses" remote="bootleggers" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
