@@ -111,6 +111,7 @@
   <project path="external/perfetto" name="external_perfetto" remote="bootleggers" />
   <project path="external/p7zip" name="external_p7zip" remote="bootleggers" />
   <project path="external/pigz" name="external_pigz" remote="bootleggers" />
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="bootleggers" />
 <!--  <project path="external/rsync" name="android_external_rsync" remote="los" /> -->
   <project path="external/unrar" name="external_unrar" remote="bootleggers" />
   <project path="external/vim" name="external_vim" remote="bootleggers" />
