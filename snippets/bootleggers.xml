@@ -25,12 +25,15 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="bootleggers" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="bootleggers" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/ShishuLauncher" name="packages_apps_Launcher3" remote="bootleggers" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
+  <project path="packages/wallpapers/MusicVisualization" name="BootleggersROM/packages_wallpapers_MusicVisualization" groups="pdk-cw-fs,pdk-fs" revision="oreo" remote="github" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="bootleggers" />
   <project path="system/bt" name="system_bt" remote="bootleggers" />
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="bootleggers" />
