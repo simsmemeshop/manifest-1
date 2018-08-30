@@ -23,18 +23,21 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
-  <project path="hardware/aosp/interfaces" name="hardware_aosp_interfaces" remote="bootleggers" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="bootleggers" />
+  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="bootleggers" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="bootleggers" />
   <project path="system/bt" name="system_bt" remote="bootleggers" />
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="bootleggers" />
   <project path="system/core" name="system_core" groups="pdk" remote="bootleggers-bff" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="bootleggers-bff" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="bootleggers" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleggers" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bootleggers" />
 
   <!-- HardWare QCOM -->
