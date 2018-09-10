@@ -133,9 +133,9 @@
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="bootleggers" revision="pasta-caf" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="bootleggers" revision="pasta-caf" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="bootleggers" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="lineage-15.1" />
