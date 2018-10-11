@@ -32,6 +32,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/apps/ShishuLauncher" name="packages_apps_Launcher3" remote="bootleggers" />
+  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk" remote="bootleggers" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/wallpapers/MusicVisualization" name="BootleggersROM/packages_wallpapers_MusicVisualization" groups="pdk-cw-fs,pdk-fs" revision="oreo" remote="github" />
