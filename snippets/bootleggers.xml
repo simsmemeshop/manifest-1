@@ -43,6 +43,7 @@
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="bootleggers" />
   <project path="system/core" name="system_core" groups="pdk" remote="bootleggers-bff" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="bootleggers-bff" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="bootleggers" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleggers" />
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bootleggers" />
