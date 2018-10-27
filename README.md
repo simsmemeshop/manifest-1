@@ -57,3 +57,7 @@ Here's my thanks to people who made this possible:
 * MatiHalperin
 * Project Xtended
 * Pixeldust Project
+* AquariOS
+* Alejandro Ponce (Quetzal/Calypso dev)
+* PixysOS 
+* The Memedo Testers team
